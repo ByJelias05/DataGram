@@ -1,0 +1,131 @@
+.Contenedor-Header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #fff;
+}
+
+.Personal-Options{
+    padding: 0px 45px 0px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E7EAED;
+}
+
+.Personal-Options .Options{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.Personal-Options .Options .Btn-Options{
+    width: 100px;
+    margin-left: 10px;
+    height: 22px;
+    background: #fff; 
+    border: none; 
+}
+
+.Btn-icono{
+    margin-left: 10px;
+    width: 30px;
+    height: 22px;
+    background: #fff; 
+    border: none; 
+}
+
+.icono{
+    font-size: 20px;
+}
+
+.Chanels-Verify-recent span{
+    font-size: 12px;
+}
+
+.App-Menu{
+    padding: 9px 45px 9px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E7EAED;
+   
+}
+
+.Logo-Menu{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.App-Menu .Menu{
+    display: flex;
+}
+
+.App-Menu .Menu .Btn-Menu{
+    color: #37383b;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+.App-Menu .Logo{
+    display: flex;
+    gap: 10px;
+}
+
+.Name-App{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size:  25px;
+}
+
+.Search-Options-User {
+    gap: 25px;
+}
+.Search-Options-User .Input-Search{
+    margin-right: 20px;
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #E7EAED;
+    background: #F6F7F8;
+    padding-left: 15px;
+}
+
+.Search-Options-User .Btn-Actualizar{
+    margin-right: 20px;
+    background-color: rgb(0 109 218);
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Search-Options-User .Btn-User{
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+    background: #0288D1;
+    border: 2px solid #006DDA;
+    border-radius: 100vmax;
+    color: #fff;
+}
+
+.Search-Options-User .Btn-status{
+    margin-right: 20px;
+    width: 50px;
+    background: #046FDA;
+    border: none;
+    color: #fff;
+    border-radius: 100vmax;
+    padding: 2px;
+}
