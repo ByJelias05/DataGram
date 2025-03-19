@@ -13,17 +13,19 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #E7EAED;
+    
 }
 
 .Personal-Options .Options{
     display: flex;
     align-items: center;
+    margin-right: 20px;
 }
 
 
 
 .Personal-Options .Options .Btn-Options{
-    width: 100px;
+    width: auto;
     margin-left: 10px;
     height: 22px;
     background: #fff; 
@@ -76,11 +78,14 @@
 
 .App-Menu .Logo{
     display: flex;
+    align-items: center;
     gap: 10px;
+    
 }
 
 .Name-App{
-    font-family: sans-serif;
+    position: relative;
+    bottom: 5px;
     font-weight: 500;
     font-size:  25px;
 }

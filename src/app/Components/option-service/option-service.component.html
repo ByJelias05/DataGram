@@ -1,4 +1,26 @@
 <div class="Content-Option-Service">
-    <img src="/Services-image/ads.svg" alt="">
-    <h4></h4>
+    <div class="Options-service" [ngClass]="DinamicClass == 'Adds' ? 'Active' : ''" (click)="OptionsNavigate('Adds')">
+        <img src="/Services-image/ads.svg" alt="">
+        <h4>Telegram Adds</h4>
+    </div>
+    <div class="Options-service"  [ngClass]="DinamicClass == 'post' ? 'Active' : ''" (click)="OptionsNavigate('post')">
+        <img src="/Services-image/post-search.svg" alt="">
+        <h4>Post Search</h4>
+    </div>
+    <div class="Options-service" [ngClass]="DinamicClass == 'market' ? 'Active' : ''" (click)="OptionsNavigate('market')">
+        <img src="/Services-image/market-overview.svg" alt="">
+        <h4>Market Overview</h4>
+    </div>
+    <div class="Options-service" [ngClass]="DinamicClass == 'adPosts' ? 'Active' : ''" (click)="OptionsNavigate('adPosts')">
+        <img src="/Services-image/advertising-posts.svg" alt="">
+        <h4>Advertising Posts</h4>
+    </div>
+    <div class="Options-service" [ngClass]="DinamicClass == 'Tracking' ? 'Active' : ''" (click)="OptionsNavigate('Tracking')">
+        <img src="/Services-image/tracking-channels.svg" alt="">
+        <h4>Event Tracking</h4>
+    </div>
+    <div class="Options-service" [ngClass]="DinamicClass == 'top' ? 'Active' : ''" (click)="OptionsNavigate('top')">
+        <img src="/Services-image/top-buyers.svg" alt="">
+        <h4>Advertirser Rankings</h4>
+    </div>
 </div>

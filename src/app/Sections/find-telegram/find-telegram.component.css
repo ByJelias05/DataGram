@@ -1,0 +1,175 @@
+.Content-Find-Telegram{
+    height: 70vh;
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    border-bottom: 2px solid rgb(71, 131, 199);
+}
+
+.Left-Content{
+    -background: red;
+    height: 80%;
+
+}
+.Left-Content h1{
+    
+ 
+}
+
+.Rigth-Content{
+    -background: blue;
+    height: 80%;
+    position: relative;
+}
+
+.Box-About-Find-Telegram{
+    gap: 25px;
+    margin-block: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.Btn-Find-Channels{
+
+    background: linear-gradient(90deg, rgb(71, 131, 199), #fff);
+    color: #fff;
+    border: none;
+    width: 50%;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 1s linear;
+    cursor: pointer;
+}
+.Btn-Find-Channels:hover{
+    background: black;
+    color: #fff;
+    transition: background-color 1000ms linear;
+}
+
+.Filter-Channels .Selects{
+    gap: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.Filter-Channels .Selects select{
+    width: 30%;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    cursor: pointer;
+    color: gray;
+    outline: none;
+}
+
+.Tops-Channels{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22% 22%;
+    align-items: center;
+    justify-content: right;
+    margin-block: 10%;
+    position: absolute;
+    right: 0;
+
+}
+
+.Box-Channels{
+    background: linear-gradient(rgba(215, 238, 254, 1), #fff);
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    -box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+    
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.uno{
+    position: relative;
+    bottom: 25%;
+    left: 80%;
+    z-index: 99;
+    background: rgb(71, 131, 199);
+    color: black;
+}
+.dos{
+    position: relative;
+    bottom: 20%;
+    left: 60%;
+    z-index: 98;
+}
+.dos h3{
+    color: rgba(0, 0, 0, 0.3);
+}
+.tres{
+    position: relative;
+    bottom: 15%;
+    left: 40%;
+    z-index: 97;
+}
+.tres h3{
+    color: rgba(0, 0, 0, 0.3);
+}
+.cuatro{
+    position: relative;
+    bottom: 10%;
+    left: 20%;
+    z-index: 96;
+}
+.cuatro h3{
+    color: rgba(0, 0, 0, 0.3);
+}
+.cicno{
+    position: relative;
+    bottom: 5%;
+}
+.cinco h3{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.Content-Box-Channels{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Trofeo{
+    position: absolute;
+    top: -20px;
+}
+
+
+
+.NumberTop{
+    color: rgb(111, 156, 207);
+    font-size: 20px;
+}
+
+.Foto-Nombre-Follows{
+    -background: red;
+    height: 100%;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.Count-Follows h4{
+    color: rgb(146, 178, 214);
+    font-size: 15px;
+}
+
