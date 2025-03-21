@@ -15,10 +15,14 @@
     -background: red;
 }
 
-.resto{
+.Main-App{
     padding-top: 50px;
     width: 100%;
     height: auto;
+    
+}
+
+.Service-Find{
     background-image: url('/FondoService.svg');
     background-size: 100%;
     background-position: center;

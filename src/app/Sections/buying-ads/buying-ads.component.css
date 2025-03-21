@@ -40,17 +40,58 @@
 .Content-Rigth{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 50px;
 }
 
 .Channels-detected{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+.Real-Time{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.Channels-detected h1{
+.Channels-detected .value{
+    width: 150px;
+    text-align: center;
     color: red;
-    background: #fff;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    float: left;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+}
+
+.Real-Time .value{
+    width: 200px;
+    text-align: center;
+    color: green;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+}
+
+.Btn-buying-ads{
+
+    background: linear-gradient(90deg, rgb(71, 131, 199), #fff);
+    color: #fff;
+    border: none;
+    width: 50%;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 1s linear;
+    cursor: pointer;
+}
+.Btn-buying-ads:hover{
+    background: black;
+    color: #fff;
+    transition: background-color 1000ms linear;
 }

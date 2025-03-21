@@ -1,0 +1,44 @@
+.Content-Verify-Channels{
+    width: 70%;
+    height: 70vh;
+    margin: 0  auto;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+}
+
+
+.Title img{
+    width: 10%;
+    position: relative;
+    left: 2%;
+}
+
+.Title span{
+    color: #018F71;
+    
+}
+
+.Propities{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    
+}
+
+.Slide-Channels{
+    margin-top: 50px;
+}
