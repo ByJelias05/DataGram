@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-leverage-data-gram',
@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   templateUrl: './leverage-data-gram.component.html',
   styleUrl: './leverage-data-gram.component.css'
 })
-export class LeverageDataGramComponent {
-
+export class LeverageDataGramComponent{
 }

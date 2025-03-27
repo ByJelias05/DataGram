@@ -1,0 +1,73 @@
+.Contenedor-Levarage{
+    width: 70%;
+    height: 80vh;
+    margin: 0  auto;
+    -background: red;
+    
+}
+
+.Content-Right-Left{
+    margin-block: 10%;
+    width: 100%;
+    height: 78%;
+    background: url(/Laverage.svg) no-repeat;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Left-Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Top{
+    padding: 25px;
+    border-bottom: 2px solid #4783C7;
+}
+
+.Top span{
+    font-size: 50px;
+}
+
+.Boxs-Content{
+    width: 90%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     background: linear-gradient(150deg, #fff, #89D5F9);
+     text-align: center;
+     gap: 25px;
+     border-radius: 15px;
+     padding: 10px;
+}
+
+.Boxs-Content div{
+    width: 100%;
+ 
+}
+.Boxs-Content div span{
+    width: 100%;
+    color: #02599E;
+    font-weight: bold;
+}
+
+.Bottom div:nth-child(1){
+    border-right: 2px solid #4783C7;
+}
+.Bottom div:nth-child(2){
+    border-right: 2px solid #4783C7;
+}
+
+.Bottom{
+    display: flex;
+    text-align: center;
+}
+
+.Bottom span{
+    font-size: 30px;
+}

@@ -20,6 +20,10 @@
     animation: SlideTop 30s linear infinite;
    
 }
+.Slide-Top:hover{
+    animation-play-state: paused;
+   
+}
 .Slide-Bottom{
     --transform: translateX(-70%);
     margin-top: 25px;
@@ -27,6 +31,10 @@
     display: flex;
     justify-content: space-between;
     animation: SlideBottom 30s linear infinite;
+}
+.Slide-Bottom:hover{
+    animation-play-state: paused;
+   
 }
 
 .Item-Slide{
@@ -66,6 +74,7 @@
 @keyframes SlideTop {
     0%{
         transform: translateX(0%);
+        
     }
     50%{
         transform: translateX(-50%);

@@ -6,6 +6,7 @@ import { FindTelegramComponent } from '../../Sections/find-telegram/find-telegra
 import { BuyingAdsComponent } from '../../Sections/buying-ads/buying-ads.component';
 import { DetailedAnalyticsComponent } from '../../Sections/detailed-analytics/detailed-analytics.component';
 import { VerifyChannelsComponent } from '../../Sections/verify-channels/verify-channels.component';
+import { LeverageDataGramComponent } from '../../Sections/leverage-data-gram/leverage-data-gram.component';
 
 @Component({
   selector: 'app-home-page',
@@ -15,7 +16,8 @@ import { VerifyChannelsComponent } from '../../Sections/verify-channels/verify-c
     FindTelegramComponent, 
     BuyingAdsComponent,
     DetailedAnalyticsComponent,
-    VerifyChannelsComponent
+    VerifyChannelsComponent,
+    LeverageDataGramComponent
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css'
